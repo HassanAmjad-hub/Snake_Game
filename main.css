@@ -1,0 +1,52 @@
+html, body {
+    font-family: sans-serif;
+}
+
+.game-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.game-container__page-header {
+    text-align: center;
+    font-size: 20px;
+}
+
+.game-container__page-header__links {
+    margin-top: 20px;
+}
+
+.game-container__page-header__links__link,
+.game-container__page-header__links__link:hover,
+.game-container__page-header__links__link:active,
+.game-container__page-header__links__link:visited {
+    display: flex;
+    text-decoration: underline;
+    color: black;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-container__page-header__links__link img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.game-container__page-header__links__link img#youtubeLogo {
+    width: 100px;
+    height: 100px;
+}
+
+.game-container__page-header__links__link:hover
+.game-container__page-header__links__link:hover {
+    color: #555;
+}
+
+#gameCanvas {
+    width: 400px;
+    height: 400px;
+    margin: 40px auto;
+}
